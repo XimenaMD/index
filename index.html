@@ -39,3 +39,103 @@
     </div>
 </body>
 </html>
+
+
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Artículo con Imagen</title>
+    <style>
+        .articulo {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .articulo img {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .contenido {
+            padding: 10px;
+        }
+        .contenido h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .contenido p {
+            font-size: 16px;
+            color: #666;
+        }
+        .leer-mas {
+            background-color: #007BFF;
+            color: white;
+            padding: 8px 12px;
+            text-decoration: none;
+        }
+        .leer-mas:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="articulo">
+        <img src="img/Handel.jpg" alt="Imagen de ejemplo">
+        <div class="contenido">
+            <h2>Datos curiosos de la vida de Georg Friedrich Händel</h2>
+            <p>Fue un <b>compositor alemán</b> cuya vida estuvo llena de eventos curiosos. Aunque su padre deseaba que fuera abogado, Händel mostró desde niño un talento excepcional para la música, practicando en secreto en un clavicordio escondido. A los 11 años ya era organista y componía. Aunque nació en Alemania, pasó la mayor parte de su vida en Inglaterra, donde se naturalizó en 1727 y compuso obras como Música para los reales fuegos artificiales en honor a la monarquía británica. En Venecia, protagonizó un famoso "duelo musical" con Domenico Scarlatti, donde fue considerado el mejor organista. Años antes de morir, perdió la vista, pero siguió componiendo y dictó su obra final, Jephtha.</p>
+            <a href="#" class="leer-mas">Leer más...</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cuatro Cajas</title>
+    <style>
+        .contenedor {
+            width: 80%;
+            padding: 20px;
+            border: 2px solid gray;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .caja {
+            width: 100%;
+            height: 150px;
+            padding: 1px;
+            border: 2px solid #ccc;
+            text-align: center;
+            line-height: 150px;
+        }
+        .caja1 { background-color: #B1FF33; }
+        .caja2 { background-color: #FFA933; }
+        .caja3 { background-color: #FF33A9; }
+        .caja4 { background-color: #338BFF; }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja caja1">Caja 1</div>
+        <div class="caja caja2">Caja 2</div>
+        <div class="caja caja3">Caja 3</div>
+        <div class="caja caja4">Caja 4</div>
+    </div>
+</body>
+</html>
+
